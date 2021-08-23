@@ -1,0 +1,81 @@
+{
+    "errmsgs": {
+        "-2": "Downloading...",
+        "-1": "Operation Aborted",
+        "0": "Completed Successfully",
+        "1": "Account doesn't exist!",
+        "-127": "The ARCBank system failed to load.",
+        "-128": "Unknown Error. Try again."
+    },
+    "msgs": {
+        "LogMsgs": {},
+        "CommandOutput": {
+            "SysReset": "System reset required!",
+            "SysSetting": "%SETTING% has been changed to %VALUE%",
+            "AdminCommand": "You must be one of these ranks to use this command: %RANKS%",
+            "SettingsSaved": "Settings have been saved!",
+            "SettingsError": "Error saving settings.",
+            "ResetYes": "System reset!",
+            "ResetNo": "Error. Check server console for details. Or look at the latest system log located in garrysmod/data/_arcbank/syslogs on the server.",
+        },
+        "Time": {
+            "minutes": "minutes",
+            "nd": "and",
+            "hour": "hour",
+            "day": "day",
+            "minute": "minute",
+            "second": "second",
+            "now": "now",
+            "days": "days",
+            "forever": "forever",
+            "seconds": "seconds",
+            "hours": "hours"
+        },
+        "AdminMenu": {
+            "AccountOwner": "Account owner",
+            "AccountMember": "Account member",
+            "AccountMemberOwner": "Account member or owner",
+            "SearchUser": "Search by User",
+            "ChooseSetting": "Choose a setting",
+            "Name": "Name: ",
+            "SearchName": "Search by Name",
+            "Members": "Group Members",
+            "Refresh": "Refresh Data",
+            "GiveTakeMoney": "Give/Take Money",
+            "AccID": "Account ID: ",
+            "Results": "%NUM% Results",
+            "Rank": "Rank: ",
+            "NoLog": "Click here to select a log",
+            "ServerLogs": "Server Logs",
+            "SaveSettings": "Save settings",
+            "Remove": "Remove",
+            "Add": "Add",
+            "Description": "Description:",
+            "Enable": "Enable",
+            "TransactionLog": "Transaction Log",
+            "StartTime": "Starting time",
+            "InvalidStartTime": "The transaction starting time is not in the correct format.",
+            "OpenATM": "View account on ATM",
+            "Unlock": "Unlock account",
+            "NoATM": "You must insert your card in an ATM to do this",
+            "LogsAccount": "Account 1: (Leave blank for all transactions)",
+            "Logs":{
+                "1": "Transaction ID",
+                "2": "Timestamp",
+                "3": "Type",
+                "4": "Account 1",
+                "5": "Account 2",
+                "6": "User 1",
+                "7": "User 2",
+                "8": "Credit/Debit",
+                "9": "Balance",
+                "10": "Comment"
+            }
+        },
+        "Commands": {
+            "reset_settings": "Set settings to default"
+        }
+    },
+    "settingsdesc": {
+    }
+}
